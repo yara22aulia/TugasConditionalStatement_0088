@@ -33,7 +33,8 @@ string statusBMI(float bmi)
     }
 }
 
-int main() 
+int main(
+) 
 {
     float berat, tinggi, bmi;
 
