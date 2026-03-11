@@ -3,8 +3,7 @@
 using namespace std;
 
 // Prosedur untuk memasukkan data
-void inputData(float &berat, float &tinggi) 
-{
+void inputData(float &berat, float &tinggi) {
     cout << "Masukkan berat badan (kg) : 50 ";
     cin >> berat;
     cout << "Masukkan tinggi badan (meter) : 18.5 ";
@@ -14,8 +13,7 @@ void inputData(float &berat, float &tinggi)
 // Fungsi untuk menghitung BMI
 float hitungBMI(float berat, float tinggi) 
 {
-    return berat / 
-    (tinggi * tinggi);
+    return berat / (tinggi * tinggi);
 }
 
 // Fungsi untuk menentukan status BMI
@@ -35,8 +33,7 @@ string statusBMI(float bmi)
     }
 }
 
-int main() 
-{
+int main() {
     float berat, tinggi, bmi;
 
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
