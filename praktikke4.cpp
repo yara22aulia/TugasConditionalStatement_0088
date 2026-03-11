@@ -19,7 +19,8 @@ float hitungBMI(float berat, float tinggi)
 }
 
 // Fungsi untuk menentukan status BMI
-string statusBMI(float bmi) {
+string statusBMI(float bmi) 
+{
     if (bmi < 18.5) {
         return "Berat Badan Kurang";
     }
@@ -34,7 +35,8 @@ string statusBMI(float bmi) {
     }
 }
 
-int main() {
+int main() 
+{
     float berat, tinggi, bmi;
 
     cout << "--- Selamat Datang Mahasiswa Kelas A 2025 ---" << endl;
